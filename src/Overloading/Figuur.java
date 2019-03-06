@@ -19,7 +19,7 @@ public class Figuur {
     public static void main(String[] args) {
         Figuur figuur = new Figuur();
 
-        System.out.println(figuur.geefOppervlakte(0));
+        System.out.println(figuur.geefOppervlakte(0.1));
         System.out.println(figuur.geefOppervlakte(1,1));
         System.out.println(figuur.geefOppervlakte(2));
     }
