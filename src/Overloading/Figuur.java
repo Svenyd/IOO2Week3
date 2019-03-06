@@ -15,4 +15,12 @@ public class Figuur {
         //doe iets
         return 2;
     }
+
+    public static void main(String[] args) {
+        Figuur figuur = new Figuur();
+
+        System.out.println(figuur.geefOppervlakte(0));
+        System.out.println(figuur.geefOppervlakte(1,1));
+        System.out.println(figuur.geefOppervlakte(2));
+    }
 }
